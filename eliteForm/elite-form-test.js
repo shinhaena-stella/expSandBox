@@ -61,3 +61,5 @@ export class Test extends LitElement {
   }
 
 }
+
+window.customElements.define('form-test', Test)

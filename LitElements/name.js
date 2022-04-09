@@ -76,7 +76,7 @@ export class Name extends LitElement {
   //handles user input. update's state and applies error validation with each character input
   handleInput(event) {
     const { value } = event.target;
-    this.val = value
+    this.value = value
     this.error = this.validation();
     this.requestUpdate();
   }

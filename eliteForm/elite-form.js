@@ -29,10 +29,17 @@ export class EliteForm extends LitElement {
   render() {
     return html`
       <div>
-        <input >
+        <input onblur=${this.validationFunc(this.validationRules)}>
       </div>
     `;
   }
+
+  validationFunc(ruleObj){
+
+
+  }
+
+
 }
 
 window.customElements.define('elite-form', EliteForm)
